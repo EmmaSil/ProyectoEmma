@@ -1,0 +1,70 @@
+
+
+<!--LA ENCUESTA ES EN LUGAR DE CONTACTO-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="../img/logo.png" alt="logo">
+    </header>
+    <nav class="barra">
+        <ul class="menu">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="alimentos.html">Alimentos</a></li>
+            <li><a href="platillosDulces.html">PlatillosDulces</a></li>
+            <li><a href="platillosSalados.html">PlatillosSalados</a></li>
+            <li><a href="beneficios.html">Beneficios</a></li>
+            <li><a href="encuesta.html">Encuesta</a></li>
+            <li><a href="#Pie">PieDePágina</a></li>
+        </ul>
+    </nav>
+   <main>
+    <div>El objetivo del siguiente formulario es recabar información sobre  los intereses de nuestros usuarios.
+    </div>
+    <br>
+     <form>
+        <br>
+       <label for="edad">Ingrese su edad</label> 
+        <input type="number" name="edad">
+        <br>
+        <br>
+        <div>Sexo biológico.</div> 
+        <div>Masculino</div>
+        <input type="radio" name="sexo" value="Masculino">
+        <div>Femenino</div>
+        <input type="radio" name="sexo" value="Femenino">
+        <br>
+        <br>
+        <label for="razon">¿Por qué le interesa consumir este tipo de alimentos?</label>
+        <br>
+        <textarea name="razon" cols="30" rows="10"></textarea>
+        <div>¿Qué tipo de comida prefiere?</div>
+        <select name="Gusto">
+            <option value="P">Platillos</option>
+            <option value="Sn">Snacks</option>
+        </select>
+        <select>
+            <option value="D">Dulce</option>
+            <option value="S">Salado</option>
+        </select>
+        <div>¿Le agradaría ver más recetas?'</div>
+        <input type="checkbox" name="acepta" value="1">
+        <input type="submit" value="Enviar info.">
+        <input type="reset" value="Borrar info.">
+    </form>
+    <div>Gracias por contestar :)</div>
+   </main>
+
+    <footer id="Pie">
+        <div>Pie de Página</div>
+    </footer>
+</body>
+</html>
